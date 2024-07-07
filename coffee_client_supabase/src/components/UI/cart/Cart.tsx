@@ -55,7 +55,7 @@ const Cart:FC = () => {
                                 <div>Total:</div>
                                 <div>{PriceFormater(total)}</div>
                             </div>
-                            <Button colorScheme={'green'} isDisabled={total <= 0}
+                            <Button colorScheme={'green'} isDisabled={true}
                                     onClick={() => setShowStripeEmbed(true)}
                             >Checkout</Button>
                         </DrawerFooter>
