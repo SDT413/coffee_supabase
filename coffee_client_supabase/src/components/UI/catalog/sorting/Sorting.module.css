@@ -1,7 +1,0 @@
-@media (max-width: 1000px) {
-  .sorting {
-    @apply flex flex-col;
-  }
-}
-
-/*# sourceMappingURL=Sorting.module.css.map */
