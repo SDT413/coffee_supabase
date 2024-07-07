@@ -1,0 +1,48 @@
+.menu {
+  @apply hidden;
+}
+
+@media (max-width: 1000px) {
+  .menu {
+    @apply w-full flex mt-32 mb-8;
+  }
+  .menu .navbar {
+    @apply w-full;
+  }
+  .menu .navbar .menu_list {
+    @apply flex justify-between;
+  }
+  .menu .navbar .menu_list > li > a {
+    @apply uppercase;
+  }
+  .menu .navbar .menu_list > li > a > button {
+    @apply bg-green text-white px-8 py-4 rounded-md text-xl;
+  }
+}
+@media (max-width: 600px) {
+  .menu {
+    @apply flex justify-center items-center mt-32 mb-8 z-50;
+  }
+  .menu .navbar {
+    @apply w-full;
+  }
+  .menu .navbar .menu_list {
+    @apply flex justify-between;
+  }
+  .menu .navbar .menu_list > li > a {
+    @apply uppercase;
+  }
+  .menu .navbar .menu_list > li > a > button {
+    @apply bg-green text-white px-4 py-2 rounded-md text-base;
+  }
+}
+@media (max-width: 400px) {
+  .menu {
+    @apply mt-24;
+  }
+  .menu .navbar .menu_list > li > a > button {
+    @apply px-2 py-1;
+  }
+}
+
+/*# sourceMappingURL=MenuNoLogo.module.css.map */
